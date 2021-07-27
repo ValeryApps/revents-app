@@ -19,6 +19,7 @@ const AppNavBar = ({ setIsFormOpen }) => {
           Re-vents
         </Menu.Item>
         <Menu.Item name="Events" as={NavLink} to="/events" />
+        <Menu.Item name="Sandbox" as={NavLink} to="/sandBox" />
         {isAuthenticated && (
           <Menu.Item as={NavLink} to="/create-event">
             <Button
